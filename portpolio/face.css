@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Free-Fire-MAX-Art.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center;
+    align-items:center; */
+    animation: slider 8s infinite;
+    backdrop-filter:blur(20px);
+}
+
+@keyframes slider{
+    0%{
+        background-image: url(Free-Fire-MAX-Art.jpg);
+    }
+
+    25%{
+        background-image: url(istockphoto-1341439724-612x612.jpg);
+    }
+
+    50%{
+        background-image: url(istockphoto-1175710243-612x612.jpg);
+    }
+
+    75%{
+        background-image: url(download\ \(21\).jfif);
+    }
+
+    100%{
+        background-image: url(download\ \(22\).jfif);
+    }
+}
